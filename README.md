@@ -1,5 +1,14 @@
 # Awesome AI for AEC Delivery [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![GitHub stars](https://img.shields.io/github/stars/natnew/Awesome-AI-for-AEC-Delivery?style=social)](https://github.com/natnew/Awesome-AI-for-AEC-Delivery/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/natnew/Awesome-AI-for-AEC-Delivery)](https://github.com/natnew/Awesome-AI-for-AEC-Delivery/commits)
+[![Contributors](https://img.shields.io/github/contributors/natnew/Awesome-AI-for-AEC-Delivery)](https://github.com/natnew/Awesome-AI-for-AEC-Delivery/graphs/contributors)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-✓-6f42c1)
+![Spatial AI](https://img.shields.io/badge/Spatial_AI-✓-0969da)
+![Physical AI](https://img.shields.io/badge/Physical_AI-✓-d1242f)
+
 > A curated list of tools, platforms, datasets, research and standards that help **architects, engineers and builders** apply **Artificial Intelligence** across the full Architecture, Engineering & Construction (AEC) lifecycle, from first sketch to operating asset. It includes dedicated sections on **Agentic AI**, **Spatial AI** and **Physical AI**.
 
 AEC is a physical, regulated, safety-critical industry. This list treats **trust, traceability and professional responsibility** as core concerns. Every section assumes that a qualified human stays accountable for what gets built.
@@ -100,6 +109,7 @@ Use this table to jump to the right section for your stage of delivery.
 - [Trust & Governance](#trust--governance)
 - [Communities, Events & Media](#communities-events--media)
 - [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -545,5 +555,11 @@ Contributions are welcome! This repository deliberately keeps **everything in th
 4. **Quality over quantity:** the resource must be maintained, documented, and useful today. No dead links, and no marketing pages for products that are not yet available.
 5. **Disclose affiliation** in your pull request if you work for or with the resource you are adding.
 6. If a new category is needed, explain in the pull request where it fits in the [five-layer taxonomy](#how-this-list-is-organised).
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the contributors have waived all copyright and related rights to this list.
 
 *Last reviewed: October 2026.*
