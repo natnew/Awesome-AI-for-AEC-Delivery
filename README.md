@@ -58,8 +58,128 @@ Use this table to jump to the right section for your stage of delivery.
 
 ---
 
+## BIM Primer: From Client Brief to Facilities Management
+
+> New to AEC, or coming from AI or software? This one-page primer explains what BIM is, how a building moves from an idea to an operating asset, who is involved at each stage, and why complexity peaks where it does. It is the context you need before applying AI anywhere in this list.
+
+### What BIM Means
+
+**BIM = Building Information Modelling.** Each word matters:
+
+- **Building:** any built asset, not only buildings. The same approach is used for bridges, railways, tunnels, utilities and campuses.
+- **Information:** the most important word. A BIM object carries data as well as shape: what the element *is*, its material, fire rating, cost, manufacturer, carbon, and maintenance schedule.
+- **Modelling:** the collaborative *process* of creating, coordinating and maintaining that information across the asset's whole life. In ISO 19650 the "M" is effectively also **Management**.
+
+BIM is a **process, not a piece of software**. A BIM model is a shared database of intelligent objects (walls, doors, beams, ducts) linked by relationships, such as "this door is in this wall, on this level, in this fire compartment". Each discipline authors its own model, and these are combined into a **federated model** inside a **Common Data Environment (CDE)**. 4D (time and sequencing) and 5D (cost) are widely used extensions. Higher "dimensions", such as sustainability or facilities management, are defined inconsistently around the world.
+
+> **Analogy for software people:** BIM is to a building what a shared, version-controlled codebase is to a software product. Many contributors work in their own modules (disciplines). Changes are merged into one source of truth (the federated model). Automated checks catch conflicts (clash detection, rule checking). The "release" (handover) has to come with documentation that operations teams can actually use.
+
+### The Lifecycle at a Glance
+
+The stages below follow the [RIBA Plan of Work 2020](https://www.architecture.com/knowledge-and-resources/resources-landing-page/riba-plan-of-work), the UK standard. Other countries use similar phases; in the US, AIA phases run Schematic Design → Design Development → Construction Documents → Bidding → Construction Administration.
+
+```mermaid
+flowchart TB
+    C(["👤 Client need"])
+    subgraph DEFINE["① DEFINE"]
+        direction LR
+        L0(["👤 client leads"]) -.- S0["<b>0</b> Strategic Definition<br/><i>Is building the answer?</i>"] --> S1["<b>1</b> Preparation & Briefing<br/><i>brief · budget · site · team</i>"]
+    end
+    subgraph DESIGN["② DESIGN"]
+        direction LR
+        L2(["✏️ architects lead"]) -.- S2["<b>2</b> Concept Design<br/><i>options · massing</i>"] --> S3["<b>3</b> Spatial Coordination<br/><i>disciplines aligned · planning</i>"] --> S4["<b>4</b> Technical Design<br/><i>details · specs · tender</i>"]
+    end
+    subgraph BUILD["③ BUILD"]
+        direction LR
+        L5(["🏗️ contractors lead"]) -.- S5["<b>5</b> Manufacturing & Construction<br/><i>fabricate · assemble · inspect</i>"] --> S6["<b>6</b> Handover<br/><i>as-built · O&M data</i>"]
+    end
+    subgraph OPERATE["④ OPERATE"]
+        direction LR
+        L7(["🔧 facilities managers lead"]) -.- S7["<b>7</b> Use<br/><i>operate · maintain · adapt</i><br/>⏳ 30–60+ years"]
+    end
+    N(["♻️ refurbish · reuse · end of life<br/>lessons feed the next client need"])
+    C --> DEFINE --> DESIGN --> BUILD --> OPERATE -.-> N
+```
+
+The design and construction stages usually take **2–5 years**. The **Use** stage lasts for **decades**, and that is where most of a building's whole-life cost and carbon sits. This is why getting information *through* handover matters so much.
+
+### How Information Flows (ISO 19650)
+
+[ISO 19650](https://www.iso.org/standard/68078.html) defines information as a chain. The client's requirements flow down to the delivery team. A **Project Information Model (PIM)** grows during design and construction. At handover it becomes the **Asset Information Model (AIM)** that operations teams rely on.
+
+```mermaid
+flowchart LR
+    OIR["<b>OIR</b><br/>Organisational<br/>Information Requirements"]
+    AIR["<b>AIR</b><br/>Asset Information<br/>Requirements"]
+    PIR["<b>PIR</b><br/>Project Information<br/>Requirements"]
+    EIR["<b>EIR</b><br/>Exchange Information<br/>Requirements"]
+    PIM[("<b>PIM</b><br/>Project Information Model<br/><i>stages 2–6</i>")]
+    AIM[("<b>AIM</b><br/>Asset Information Model<br/><i>stage 7</i>")]
+    OIR --> AIR
+    OIR --> PIR --> EIR --> PIM
+    AIR --> AIM
+    PIM == "handover" ==> AIM
+    AIM -. "lessons & data inform the next project" .-> OIR
+```
+
+### Who Does What
+
+Delivering a building takes dozens of professions and often hundreds of companies. The matrix below is **indicative**: roles shift with the procurement route (traditional, design & build, integrated project delivery) and the country.
+
+**Legend:** 🟩 leads · 🟨 major contributor · ⬜ consulted / occasional · blank = not usually involved
+
+| Role | 0 Strategic | 1 Brief | 2 Concept | 3 Spatial Coord. | 4 Technical | 5 Construction | 6 Handover | 7 Use |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Client / asset owner | 🟩 | 🟩 | 🟨 | 🟨 | ⬜ | ⬜ | 🟨 | 🟩 |
+| Project manager | 🟨 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | 🟩 | ⬜ |
+| **Architect (lead designer)** | ⬜ | 🟨 | 🟩 | 🟩 | 🟩 | 🟨 | ⬜ | ⬜ |
+| Planning consultant | ⬜ | 🟨 | 🟨 | 🟨 | | | | |
+| Structural / civil engineer | | ⬜ | 🟨 | 🟩 | 🟩 | 🟨 | ⬜ | |
+| Building services (MEP) engineer | | ⬜ | 🟨 | 🟩 | 🟩 | 🟨 | 🟨 | ⬜ |
+| Cost consultant / quantity surveyor | 🟨 | 🟩 | 🟨 | 🟨 | 🟨 | 🟩 | 🟨 | |
+| Specialists (fire, façade, acoustics, sustainability) | | ⬜ | 🟨 | 🟨 | 🟨 | ⬜ | ⬜ | |
+| Information / BIM manager | | 🟨 | 🟨 | 🟩 | 🟩 | 🟩 | 🟩 | ⬜ |
+| Main contractor | | | ⬜ | ⬜ | 🟨 | 🟩 | 🟩 | |
+| Specialist subcontractors & fabricators | | | | ⬜ | 🟨 | 🟩 | 🟨 | ⬜ |
+| Building control / approving authority | | | ⬜ | 🟨 | 🟨 | 🟨 | 🟩 | |
+| Facilities / asset manager | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 🟩 | 🟩 |
+| Occupants / end users | ⬜ | ⬜ | ⬜ | | | | ⬜ | 🟩 |
+
+### Where Architects Come In
+
+- **Stage 0–1, often earlier than people expect.** Architects run feasibility studies and help the client turn a *need* into a *brief*. Sometimes the answer is "don't build; refurbish".
+- **Stages 2–4, the lead designer.** Architects turn the brief into spatial form. They coordinate the wider design team (engineers and specialists) and usually prepare the planning application. Most authored BIM content in these stages is architectural, structural and MEP.
+- **Stage 5, role depends on procurement.** In traditional contracts the architect often acts as *contract administrator*, inspecting work and certifying payments. In design & build, the architect may be *novated* to work for the contractor.
+- **Stages 6–7, typically light involvement.** This is a known weakness. Design intent and rationale often do not reach the people who run the building.
+
+### Technical Complexity Across the Lifecycle
+
+Model detail and the number of people involved both grow quickly. Complexity peaks during construction, when design, fabrication, logistics and safety all meet on a live site.
+
+| Stage | Typical model detail* | Technical complexity | Cost of change | Key BIM outputs | Where AI helps |
+|---|---|:-:|:-:|---|---|
+| 0 Strategic Definition | Site and context data | ▰▱▱▱▱ | ▰▱▱▱▱ | Business case, OIR | [Site & feasibility](#site-feasibility--massing), [Geospatial](#geospatial--city-scale) |
+| 1 Preparation & Briefing | Massing, site constraints | ▰▱▱▱▱ | ▰▱▱▱▱ | Brief, EIR, budget | [Permitting & codes](#permitting-codes--compliance) |
+| 2 Concept Design | LOD 100–200 | ▰▰▱▱▱ | ▰▱▱▱▱ | Concept model, design options | [Generative design](#generative--computational-design), [AI visualisation](#ai-visualisation--rendering) |
+| 3 Spatial Coordination | LOD 200–300 | ▰▰▰▱▱ | ▰▰▱▱▱ | Coordinated federated model, planning drawings | [Simulation](#engineering-analysis--simulation), [MCP agents](#mcp-servers-for-aec-tools) |
+| 4 Technical Design | LOD 300–350 | ▰▰▰▰▱ | ▰▰▰▱▱ | Clash-free model, specifications, tender package | [Code compliance](#permitting-codes--compliance), [Documents](#documents-drawings--knowledge), [Take-off](#estimating--quantity-take-off) |
+| 5 Manufacturing & Construction | LOD 400 (fabrication) | ▰▰▰▰▰ | ▰▰▰▰▱ | Fabrication models, 4D/5D, site records | [Scheduling](#planning-scheduling--cost), [Progress](#site-progress--quality-monitoring), [Safety](#health-safety--computer-vision), [Robotics](#physical-ai) |
+| 6 Handover | LOD 500 (verified as-built) | ▰▰▰▰▱ | ▰▰▰▰▰ | As-built model, [COBie](https://www.wbdg.org/bim/cobie), O&M manuals | [Scan-to-BIM](#scan-to-bim--3d-understanding), [Reality capture](#reality-capture--neural-reconstruction) |
+| 7 Use | Asset Information Model | ▰▰▰▱▱ *(but lasts decades)* | ▰▰▰▰▰ | AIM, digital twin, maintenance history | [Operations & digital twins](#operations-facilities--digital-twins), [Ontologies](#semantic--building-ontologies) |
+
+<sub>*Level of Development (LOD) follows the US [BIMForum](https://bimforum.org) convention. ISO 19650 and the UK use "Level of Information Need" (ISO 7817-1) instead. Bars are qualitative.</sub>
+
+**The two big insights for AI:**
+1. **The decision–information paradox.** The early stages have the most influence over cost, carbon and performance, but the least information. AI that brings late-stage knowledge forward (cost, buildability, energy, compliance) into concept design has outsized value.
+2. **The handover cliff.** Rich design and construction data is often lost when the asset passes to operations. Spatial AI (scan-to-BIM) and agents that read O&M documents can rebuild what was lost. Openly structured data (IFC, COBie, Brick) stops it being lost in the first place.
+
+**Further reading:** [What is BIM? (NBS)](https://www.thenbs.com/knowledge/what-is-building-information-modelling-bim) · [UK BIM Framework](https://www.ukbimframework.org) · [buildingSMART openBIM](https://www.buildingsmart.org)
+
+---
+
 ## Contents
 
+- [BIM Primer](#bim-primer-from-client-brief-to-facilities-management)
 - [Foundations](#foundations)
   - [Learning Resources](#learning-resources)
   - [Books](#books)
