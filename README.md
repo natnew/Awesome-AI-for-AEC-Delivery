@@ -20,8 +20,9 @@ AEC is a physical, regulated, safety-critical industry. This list treats **trust
 The taxonomy has **five layers**. Each layer builds on the one below it:
 
 ```mermaid
-flowchart TB
-    G["⑤ Trust & Governance<br/>standards · ethics · evaluation"]
+flowchart BT
+    F["① Foundations<br/>learning · communities · media"]
+    D["② Data & Interoperability<br/>openBIM · IFC · USD · graphs · APIs"]
     subgraph P["③ AI Paradigms"]
         direction LR
         SP["👁️ Spatial AI<br/><i>perceive the built world</i>"]
@@ -31,12 +32,8 @@ flowchart TB
         PH -. "as-built feedback" .-> SP
     end
     L["④ Lifecycle Applications<br/>plan · design · engineer · build · operate"]
-    D["② Data & Interoperability<br/>openBIM · IFC · USD · graphs · APIs"]
-    F["① Foundations<br/>learning · communities · media"]
-    G --- P
-    P --> L
-    D --> P
-    F --> D
+    G["⑤ Trust & Governance<br/>standards · ethics · evaluation"]
+    F --> D --> P --> L --> G
 ```
 
 **A mental model:** think of an AI-enabled project as a body.
