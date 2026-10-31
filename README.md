@@ -49,8 +49,8 @@ Use this table to jump to the right section for your stage of delivery.
 
 | | Plan & Feasibility | Design | Engineer & Analyse | Construct | Operate & Maintain |
 |---|---|---|---|---|---|
-| **Generative / Predictive AI** | [Site & feasibility](#site-feasibility--massing) | [Generative design](#generative--computational-design) | [Simulation surrogates](#engineering-analysis--simulation) | [Scheduling & cost](#planning-scheduling--cost) | [Building performance](#operations-facilities--digital-twins) |
-| **Agentic AI** | [Zoning & permitting](#permitting-codes--compliance) | [MCP servers for design tools](#mcp-servers-for-aec-tools) | [Code compliance agents](#permitting-codes--compliance) | [Construction document agents](#documents-drawings--knowledge) | [Asset copilots](#operations-facilities--digital-twins) |
+| **Generative / Predictive AI** | [Site & feasibility](#site-feasibility--massing) | [Generative design](#generative--computational-design) | [Simulation surrogates](#engineering-analysis--simulation) | [Scheduling & cost](#planning-scheduling--cost) | [Building performance](#building-operations--asset-intelligence) |
+| **Agentic AI** | [Zoning & permitting](#permitting-codes--compliance) | [MCP servers for design tools](#mcp-servers-for-aec-tools) | [Code compliance agents](#permitting-codes--compliance) | [Construction document agents](#documents-drawings--knowledge) | [Asset copilots](#building-operations--asset-intelligence) |
 | **Spatial AI** | [Geospatial & city data](#geospatial--city-scale) | [Floor plan understanding](#drawing--floor-plan-understanding) | [Scan-to-BIM](#scan-to-bim--3d-understanding) | [Progress monitoring](#site-progress--quality-monitoring) | [Reality-captured twins](#reality-capture--neural-reconstruction) |
 | **Physical AI** | [Survey drones](#drones--legged-inspection) | [Robotic fabrication](#robotic-fabrication--digital-construction) | [Simulation & world models](#simulation-world-models--robot-learning) | [Site robotics](#on-site-construction-robotics) | [Inspection robots](#drones--legged-inspection) |
 
@@ -58,7 +58,7 @@ Use this table to jump to the right section for your stage of delivery.
 
 ---
 
-## BIM Primer: From Client Brief to Facilities Management
+## BIM Primer: From Client Brief to Building Operations & Asset Intelligence
 
 > New to AEC, or coming from AI or software? This one-page primer explains what BIM is, how a building moves from an idea to an operating asset, who is involved at each stage, and why complexity peaks where it does. It is the context you need before applying AI anywhere in this list.
 
@@ -70,7 +70,7 @@ Use this table to jump to the right section for your stage of delivery.
 - **Information:** the most important word. A BIM object carries data as well as shape: what the element *is*, its material, fire rating, cost, manufacturer, carbon, and maintenance schedule.
 - **Modelling:** the collaborative *process* of creating, coordinating and maintaining that information across the asset's whole life. In ISO 19650 the "M" is effectively also **Management**.
 
-BIM is a **process, not a piece of software**. A BIM model is a shared database of intelligent objects (walls, doors, beams, ducts) linked by relationships, such as "this door is in this wall, on this level, in this fire compartment". Each discipline authors its own model, and these are combined into a **federated model** inside a **Common Data Environment (CDE)**. 4D (time and sequencing) and 5D (cost) are widely used extensions. Higher "dimensions", such as sustainability or facilities management, are defined inconsistently around the world.
+BIM is a **process, not a piece of software**. A BIM model is a shared database of intelligent objects (walls, doors, beams, ducts) linked by relationships, such as "this door is in this wall, on this level, in this fire compartment". Each discipline authors its own model, and these are combined into a **federated model** inside a **Common Data Environment (CDE)**. 4D (time and sequencing) and 5D (cost) are widely used extensions. Higher "dimensions", such as sustainability or building operations & asset intelligence, are defined inconsistently around the world.
 
 > **Analogy for software people:** BIM is to a building what a shared, version-controlled codebase is to a software product. Many contributors work in their own modules (disciplines). Changes are merged into one source of truth (the federated model). Automated checks catch conflicts (clash detection, rule checking). The "release" (handover) has to come with documentation that operations teams can actually use.
 
@@ -95,7 +95,7 @@ flowchart TB
     end
     subgraph OPERATE["④ OPERATE"]
         direction LR
-        L7(["🔧 facilities managers lead"]) -.- S7["<b>7</b> Use<br/><i>operate · maintain · adapt</i><br/>⏳ 30–60+ years"]
+        L7(["🔧 building operations & asset intelligence teams lead"]) -.- S7["<b>7</b> Use<br/><i>operate · maintain · adapt</i><br/>⏳ 30–60+ years"]
     end
     N(["♻️ refurbish · reuse · end of life<br/>lessons feed the next client need"])
     C --> DEFINE --> DESIGN --> BUILD --> OPERATE -.-> N
@@ -142,7 +142,7 @@ Delivering a building takes dozens of professions and often hundreds of companie
 | Main contractor | | | ⬜ | ⬜ | 🟨 | 🟩 | 🟩 | |
 | Specialist subcontractors & fabricators | | | | ⬜ | 🟨 | 🟩 | 🟨 | ⬜ |
 | Building control / approving authority | | | ⬜ | 🟨 | 🟨 | 🟨 | 🟩 | |
-| Facilities / asset manager | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 🟩 | 🟩 |
+| Building operations & asset intelligence team | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 🟩 | 🟩 |
 | Occupants / end users | ⬜ | ⬜ | ⬜ | | | | ⬜ | 🟩 |
 
 ### Where Architects Come In
@@ -165,7 +165,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 | 4 Technical Design | LOD 300–350 | ▰▰▰▰▱ | ▰▰▰▱▱ | Clash-free model, specifications, tender package | [Code compliance](#permitting-codes--compliance), [Documents](#documents-drawings--knowledge), [Take-off](#estimating--quantity-take-off) |
 | 5 Manufacturing & Construction | LOD 400 (fabrication) | ▰▰▰▰▰ | ▰▰▰▰▱ | Fabrication models, 4D/5D, site records | [Scheduling](#planning-scheduling--cost), [Progress](#site-progress--quality-monitoring), [Safety](#health-safety--computer-vision), [Robotics](#physical-ai) |
 | 6 Handover | LOD 500 (verified as-built) | ▰▰▰▰▱ | ▰▰▰▰▰ | As-built model, [COBie](https://www.wbdg.org/bim/cobie), O&M manuals | [Scan-to-BIM](#scan-to-bim--3d-understanding), [Reality capture](#reality-capture--neural-reconstruction) |
-| 7 Use | Asset Information Model | ▰▰▰▱▱ *(but lasts decades)* | ▰▰▰▰▰ | AIM, digital twin, maintenance history | [Operations & digital twins](#operations-facilities--digital-twins), [Ontologies](#semantic--building-ontologies) |
+| 7 Use | Asset Information Model | ▰▰▰▱▱ *(but lasts decades)* | ▰▰▰▰▰ | AIM, digital twin, maintenance history | [Building operations & asset intelligence](#building-operations--asset-intelligence), [Ontologies](#semantic--building-ontologies) |
 
 <sub>*Level of Development (LOD) follows the US [BIMForum](https://bimforum.org) convention. ISO 19650 and the UK use "Level of Information Need" (ISO 7817-1) instead. Bars are qualitative.</sub>
 
@@ -179,7 +179,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 
 ## Contents
 
-- [BIM Primer](#bim-primer-from-client-brief-to-facilities-management)
+- [BIM Primer](#bim-primer-from-client-brief-to-building-operations--asset-intelligence)
 - [Foundations](#foundations)
   - [Learning Resources](#learning-resources)
   - [Books](#books)
@@ -220,7 +220,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
   - [Planning, Scheduling & Cost](#planning-scheduling--cost)
   - [Site Progress & Quality Monitoring](#site-progress--quality-monitoring)
   - [Health, Safety & Computer Vision](#health-safety--computer-vision)
-  - [Operations, Facilities & Digital Twins](#operations-facilities--digital-twins)
+  - [Building Operations & Asset Intelligence](#building-operations--asset-intelligence)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Research Papers & Surveys](#research-papers--surveys)
 - [Trust & Governance](#trust--governance)
@@ -543,7 +543,9 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 📄📊 [SODA: Site Object Detection Dataset](https://arxiv.org/abs/2202.09554) - Around 20,000 site images with 15 classes covering workers, materials, machines and layout.
 - 📄📊 [VCVW-3D](https://arxiv.org/abs/2305.17927) - Synthetic construction vehicles and workers dataset with 3D annotations.
 
-### Operations, Facilities & Digital Twins
+### Building Operations & Asset Intelligence
+
+> Traditionally called *facilities management (FM)*. This covers running, maintaining and adapting buildings over their decades of use, and turning operational data (sensors, maintenance records, the Asset Information Model, digital twins) into intelligence about the asset.
 
 - [BOPTEST](https://ibpsa.github.io/project1-boptest/) - 🟢 Benchmarking framework for building control algorithms, including reinforcement learning.
 - [CityLearn](https://github.com/intelligent-environments-lab/CityLearn) - 🟢 Reinforcement-learning environment for grid-interactive building energy management.
