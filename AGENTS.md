@@ -17,7 +17,7 @@ No setup is needed. Useful checks before committing:
 ## Editing Rules
 
 - Read [CONTRIBUTING.md](CONTRIBUTING.md) first; it is the source of truth for scope and entry format.
-- Entry format: `- <icon> [Name](url) - One-sentence description ending with a full stop.` Icons: 🟢 open source, 💼 commercial, 📄 paper, 📊 dataset, 🎓 learning. Copy the style of neighbouring entries.
+- Entry format: `- <icon> [Name](url) - One-sentence description ending with a full stop.` Icons: 🟢 open source, 💼 commercial, 📄 paper, 📊 dataset, 🎓 learning; icon(s) always before the link. Standards, organisations, communities, events, journals and media take no icon. Copy the style of neighbouring entries.
 - Add to the most specific existing section. Keep that section's ordering.
 - If you add or rename a heading, update the **Contents** section and any anchor links (including the Paradigm × Lifecycle table).
 - One resource per PR. Do not bulk-reformat unrelated lines.

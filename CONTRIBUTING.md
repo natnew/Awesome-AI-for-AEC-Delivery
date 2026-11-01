@@ -26,7 +26,7 @@ AEC is physical and safety-critical, so resources that support traceability, ver
    - 🟢 [Name](https://example.com) - Short description ending with a full stop.
    ```
 
-   Legend icons: 🟢 open source · 💼 commercial · 📄 paper · 📊 dataset · 🎓 learning resource. Match the icon placement used by neighbouring entries.
+   Legend icons: 🟢 open source · 💼 commercial · 📄 paper · 📊 dataset · 🎓 learning resource (courses, books, articles, related lists). The icon always goes before the link; combine icons when more than one applies (for example `🟢📊`). Standards, organisations, research groups, communities, events, journals and media take no icon.
 5. **Update the Contents** table if you add a new heading.
 6. **Open a pull request** with a clear title, such as `Add <Name> to <Section>`.
 
