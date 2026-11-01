@@ -1,7 +1,7 @@
 # Awesome AI for AEC Delivery [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/natnew/Awesome-AI-for-AEC-Delivery?style=social)](https://github.com/natnew/Awesome-AI-for-AEC-Delivery/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/natnew/Awesome-AI-for-AEC-Delivery)](https://github.com/natnew/Awesome-AI-for-AEC-Delivery/commits)
 [![Contributors](https://img.shields.io/github/contributors/natnew/Awesome-AI-for-AEC-Delivery)](https://github.com/natnew/Awesome-AI-for-AEC-Delivery/graphs/contributors)
@@ -677,8 +677,6 @@ Contributions are welcome! This repository deliberately keeps **everything in th
 
 ## License
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related rights to this list.
+Released under the [MIT License](LICENSE).
 
 *Last reviewed: October 2026.*
