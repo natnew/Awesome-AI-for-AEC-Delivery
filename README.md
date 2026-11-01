@@ -62,6 +62,25 @@ Use this table to jump to the right section for your stage of delivery.
 
 > New to AEC, or coming from AI or software? This one-page primer explains what BIM is, how a building moves from an idea to an operating asset, who is involved at each stage, and why complexity peaks where it does. It is the context you need before applying AI anywhere in this list.
 
+### CAD & BIM: From Geometry to Information
+
+CAD supports the creation and manipulation of precise 2D drawings and 3D geometric models. BIM extends beyond geometric representation to incorporate structured information, object relationships and collaborative workflows throughout an asset's lifecycle. Both remain integral to modern AEC delivery, with AI increasingly enabling automated drawing interpretation, parametric model generation, model editing and interoperability.
+
+```mermaid
+flowchart TB
+    CAD["<b>CAD</b> · Computer-Aided Design<br/><i>2D drawings · 3D geometry · parametric authoring</i>"]
+    BIM["<b>BIM</b> · Building Information Modelling<br/><i>information-rich objects · coordination · asset data</i>"]
+    subgraph AI["AI-Enabled AEC Delivery"]
+        direction LR
+        AG["🧠 Agentic AI<br/><i>reason & act</i>"]
+        SP["👁️ Spatial AI<br/><i>understand space</i>"]
+        PH["🦾 Physical AI<br/><i>interact with assets</i>"]
+    end
+    CAD --> BIM --> AI
+```
+
+<sub>A conceptual information flow, not a strict sequence: CAD and BIM also run in parallel and exchange data in both directions.</sub>
+
 ### What BIM Means
 
 **BIM = Building Information Modelling.** Each word matters:
