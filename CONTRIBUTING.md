@@ -62,4 +62,4 @@ Be respectful and constructive. Assume good faith, review the content rather tha
 
 ## License
 
-By contributing, you agree to dedicate your contribution to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), matching the repository licence.
+By contributing, you agree that your contribution is licensed under the [MIT License](LICENSE), matching the repository licence.

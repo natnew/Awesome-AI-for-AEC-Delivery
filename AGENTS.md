@@ -34,4 +34,4 @@ No setup is needed. Useful checks before committing:
 
 ## Licence
 
-CC0 1.0. Contributions are dedicated to the public domain.
+MIT (see `LICENSE`). Contributions are licensed under MIT.
