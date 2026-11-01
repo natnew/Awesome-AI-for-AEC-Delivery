@@ -37,7 +37,7 @@ AEC is physical and safety-critical, so resources that support traceability, ver
 - Keep descriptions to one sentence and end with a full stop.
 - Use the official project or paper URL, not a tracking or shortened link.
 - Keep alphabetical or existing ordering within a section, whichever the section already uses.
-- Use British or American spelling consistently with the surrounding text; do not mix them within an entry.
+
 
 ## Pull Request Checklist
 
