@@ -408,6 +408,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 🟢 [Hydra](https://github.com/MIT-SPARK/Hydra) - Real-time 3D scene graph construction from MIT SPARK Lab.
 - 📄 [ConceptGraphs](https://concept-graphs.github.io) - Open-vocabulary 3D scene graphs for perception and planning.
 - 💼 [World Labs](https://www.worldlabs.ai) - Large world models that generate and reason about 3D environments.
+- 💼 [World Labs Atlas](https://worldlabs.ai/atlas) - World model that generates, reconstructs and simulates 3D environments from a few photos, with point-cloud and Gaussian-splat outputs.
 - 💼 [Niantic Spatial](https://www.nianticspatial.com) - Geospatial models and large-scale reconstruction for geolocated spatial AI.
 
 #### Drawing & Floor Plan Understanding
