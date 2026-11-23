@@ -506,6 +506,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 
 - 💼 [Veras (EvolveLAB)](https://www.evolvelab.io/veras) - AI rendering plug-in for Revit, Rhino, SketchUp and Forma.
 - 💼 [LookX](https://www.lookx.ai) - Generative AI rendering trained for architecture.
+- 💼 [ArchitecturesAI](https://architecturesai.com/) - Browser tool that turns prompts, sketches, floor plans or photos into architectural renders, with a free tier.
 - 🟢 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Node-based diffusion workflow engine popular for controlled architectural visualisation.
 - 🟢 [ControlNet](https://github.com/lllyasviel/ControlNet) - Conditions diffusion models on edges, depth or line drawings to keep design intent intact.
 
