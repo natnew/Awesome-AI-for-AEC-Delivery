@@ -499,6 +499,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 🟢📄 [House-GAN++](https://github.com/ennauata/houseganpp) - Graph-constrained generative floor plan layouts.
 - 🟢📄 [HouseDiffusion](https://github.com/aminshabani/house_diffusion) - Diffusion-based vector floor plan generation (📄 [paper](https://arxiv.org/abs/2211.13287)).
 - 🟢📄 [Graph2Plan](https://github.com/HanHan55/Graph2plan) - Floor plan generation from layout graphs (📄 [paper](https://arxiv.org/abs/2004.13204)).
+- 🟢 [text-to-cad](https://github.com/earthtojake/text-to-cad) - Agent skills and plugins that let coding agents generate, check and export parametric 3D CAD models (STEP, STL, 3MF, GLB) from Python scripts.
 
 ### AI Visualisation & Rendering
 
