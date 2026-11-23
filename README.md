@@ -495,6 +495,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 💼 [Higharc](https://www.higharc.com) - Generative design and automation platform for homebuilders.
 - 💼 [Snaptrude](https://www.snaptrude.com) - Browser-based BIM with AI-assisted design.
 - 💼 [Maket](https://www.maket.ai) - Generative residential floor plans from requirements.
+- 💼 [Zoo Design Studio](https://zoo.dev/design-studio) - CAD application with a built-in conversational agent (Zookeeper) that generates and edits geometry from text prompts and code.
 - [Wallacei](https://www.wallacei.com) - Evolutionary multi-objective optimisation for Grasshopper.
 - 🟢📄 [House-GAN++](https://github.com/ennauata/houseganpp) - Graph-constrained generative floor plan layouts.
 - 🟢📄 [HouseDiffusion](https://github.com/aminshabani/house_diffusion) - Diffusion-based vector floor plan generation (📄 [paper](https://arxiv.org/abs/2211.13287)).
