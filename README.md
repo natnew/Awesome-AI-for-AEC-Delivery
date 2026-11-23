@@ -408,6 +408,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 🟢 [Hydra](https://github.com/MIT-SPARK/Hydra) - Real-time 3D scene graph construction from MIT SPARK Lab.
 - 📄 [ConceptGraphs](https://concept-graphs.github.io) - Open-vocabulary 3D scene graphs for perception and planning.
 - 💼 [World Labs](https://www.worldlabs.ai) - Large world models that generate and reason about 3D environments.
+- 💼 [World Labs Atlas](https://worldlabs.ai/atlas) - World model that generates, reconstructs and simulates 3D environments from a few photos, with point-cloud and Gaussian-splat outputs.
 - 💼 [Niantic Spatial](https://www.nianticspatial.com) - Geospatial models and large-scale reconstruction for geolocated spatial AI.
 
 #### Drawing & Floor Plan Understanding
@@ -495,15 +496,18 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 💼 [Snaptrude](https://www.snaptrude.com) - Browser-based BIM with AI-assisted design.
 - 💼 [Maket](https://www.maket.ai) - Generative residential floor plans from requirements.
 - 💼 [3DRoomDesign.ai](https://3droomdesign.ai/) - AI-assisted residential floor plan creation and conversion of plan images into editable 3D room layouts for early-stage design exploration.
+- 💼 [Zoo Design Studio](https://zoo.dev/design-studio) - CAD application with a built-in conversational agent (Zookeeper) that generates and edits geometry from text prompts and code.
 - [Wallacei](https://www.wallacei.com) - Evolutionary multi-objective optimisation for Grasshopper.
 - 🟢📄 [House-GAN++](https://github.com/ennauata/houseganpp) - Graph-constrained generative floor plan layouts.
 - 🟢📄 [HouseDiffusion](https://github.com/aminshabani/house_diffusion) - Diffusion-based vector floor plan generation (📄 [paper](https://arxiv.org/abs/2211.13287)).
 - 🟢📄 [Graph2Plan](https://github.com/HanHan55/Graph2plan) - Floor plan generation from layout graphs (📄 [paper](https://arxiv.org/abs/2004.13204)).
+- 🟢 [text-to-cad](https://github.com/earthtojake/text-to-cad) - Agent skills and plugins that let coding agents generate, check and export parametric 3D CAD models (STEP, STL, 3MF, GLB) from Python scripts.
 
 ### AI Visualisation & Rendering
 
 - 💼 [Veras (EvolveLAB)](https://www.evolvelab.io/veras) - AI rendering plug-in for Revit, Rhino, SketchUp and Forma.
 - 💼 [LookX](https://www.lookx.ai) - Generative AI rendering trained for architecture.
+- 💼 [ArchitecturesAI](https://architecturesai.com/) - Browser tool that turns prompts, sketches, floor plans or photos into architectural renders, with a free tier.
 - 🟢 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Node-based diffusion workflow engine popular for controlled architectural visualisation.
 - 🟢 [ControlNet](https://github.com/lllyasviel/ControlNet) - Conditions diffusion models on edges, depth or line drawings to keep design intent intact.
 
