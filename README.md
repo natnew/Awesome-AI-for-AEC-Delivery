@@ -279,7 +279,9 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 🎓 [Hugging Face Agents Course](https://huggingface.co/learn/agents-course) - Free course on building and evaluating AI agents. Covers the concepts behind agentic workflows for AEC.
 - 🎓 [Practical Deep Learning for Coders (fast.ai)](https://course.fast.ai) - Hands-on, code-first deep learning course. A good on-ramp for engineers who already know Python.
 - 🎓 [Parametric Camp](https://www.youtube.com/@ParametricCamp) - Video tutorials on computational design, Grasshopper and coding for architects.
+- 🎓 [Gediminas Kirdeikis](https://www.youtube.com/c/GediminasKirdeikis/videos) - YouTube channel by an architect and educator covering architecture, design technology and practice.
 - 🎓 [DigitalFUTURES](https://www.digitalfutures.world) - Free global workshops and talks on computational design, AI and robotics in architecture.
+- 🎓 [PAACADEMY](https://paacademy.com/) - Parametric Architecture's online courses and live workshops on Grasshopper, Rhino, Blender, computational design and AI in architecture.
 - 🎓 [Model Context Protocol docs](https://modelcontextprotocol.io) - The open protocol behind most AEC tool-using agents. Start here before building an MCP server for Revit, Rhino or IFC.
 - 🎓 [LeRobot](https://github.com/huggingface/lerobot) - Hugging Face's open library and tutorials for real-world robot learning. A practical entry point to Physical AI.
 - 🎓 [ArchiGAN: a Generative Stack for Apartment Building Design](https://developer.nvidia.com/blog/archigan-generative-stack-apartment-building-design/) - A widely cited early demonstration of GANs applied to floor plan generation, by Stanislas Chaillou.
@@ -546,6 +548,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 💼 [LookX](https://www.lookx.ai) - Generative AI rendering trained for architecture.
 - 💼 [ArchitecturesAI](https://architecturesai.com/) - Browser tool that turns prompts, sketches, floor plans or photos into architectural renders, with a free tier.
 - 💼 [ArchMaster AI](https://archmasterai.com/) - AI visualisation tool that turns sketches, CAD drawings and concepts into photorealistic architectural and interior renders.
+- 💼 [RunDiffusion](https://www.rundiffusion.com/) - Hosted cloud GPUs for running ComfyUI and other Stable Diffusion interfaces without a local setup.
 - 🟢 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Node-based diffusion workflow engine popular for controlled architectural visualisation.
 - 🟢 [ControlNet](https://github.com/lllyasviel/ControlNet) - Conditions diffusion models on edges, depth or line drawings to keep design intent intact.
 
@@ -708,6 +711,7 @@ Papers for specific tools, datasets and methods sit next to them in the sections
 - [Geo Week News](https://www.geoweeknews.com) - Reality capture, geospatial and digital twins.
 - [Construction Dive](https://www.constructiondive.com) - Construction industry news, including robotics and AI funding.
 - [The Robot Report](https://www.therobotreport.com) - Robotics industry news, including construction robotics.
+- [Tom Budd](https://www.tom-budd.com/) - Portfolio of a London-based architectural designer, visualiser and digital tutor at the Bartlett School of Architecture.
 
 ---
 
