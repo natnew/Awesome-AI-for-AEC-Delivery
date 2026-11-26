@@ -231,6 +231,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
   - [AEC Data Platforms & APIs](#aec-data-platforms--apis)
   - [Semantic & Building Ontologies](#semantic--building-ontologies)
   - [Computational Design Environments](#computational-design-environments)
+  - [Rhino & Grasshopper Plugins and Workflows](#rhino--grasshopper-plugins-and-workflows)
 - [AI Paradigms](#ai-paradigms)
   - [Agentic AI](#agentic-ai)
     - [MCP Servers for AEC Tools](#mcp-servers-for-aec-tools)
@@ -341,6 +342,13 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 🟢 [pyRevit](https://github.com/pyrevitlabs/pyRevit) - Rapid Python add-in development for Revit. A common way to host AI scripts.
 - 🟢 [Rhino.Inside.Revit](https://github.com/mcneel/rhino.inside-revit) - Runs Rhino and Grasshopper inside Revit.
 - 🟢 [COMPAS](https://compas.dev) - Open-source Python framework for computational research in AEC, from ETH Zurich ([GitHub](https://github.com/compas-dev/compas)).
+
+### Rhino & Grasshopper Plugins and Workflows
+
+- 💼 [ArchiHacks](https://plugin.archihacks.com/) - Rhino and Revit plug-in that generates AI visualisations from the Rhino viewport.
+- 💼 [Cityweft](https://www.cityweft.com/) - 3D site context platform with a Rhino and Grasshopper plug-in that imports buildings and terrain for a chosen location.
+- 💼 [Raven](https://www.raven.build/en) - AI assistant inside Rhino that builds and edits live Grasshopper definitions, showing each change for review before it is kept.
+- 💼 [Treform](https://treform.ai/) - AI modelling agent that runs beside Rhino and generates editable massing, plans and sections from text or reference images.
 
 ---
 
