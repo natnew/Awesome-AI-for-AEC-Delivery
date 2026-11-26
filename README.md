@@ -700,14 +700,7 @@ Papers for specific tools, datasets and methods sit next to them in the sections
 
 ## Contributing
 
-Contributions are welcome! This repository deliberately keeps **everything in this single README**. Please follow these rules:
-
-1. **One resource per pull request**, added to the most specific section of the taxonomy.
-2. Use the format `- 🟢 [Name](link) - Short description ending with a full stop.`, with the legend icon (🟢 💼 📄 📊 🎓) before the link. Standards, organisations, communities, events and journals take no icon.
-3. **Relevance:** the resource must help AEC professionals apply AI. General AI tools belong here only when they are widely used in AEC workflows.
-4. **Quality over quantity:** the resource must be maintained, documented, and useful today. No dead links, and no marketing pages for products that are not yet available.
-5. **Disclose affiliation** in your pull request if you work for or with the resource you are adding.
-6. If a new category is needed, explain in the pull request where it fits in the [five-layer taxonomy](#how-this-list-is-organised).
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
