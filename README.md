@@ -326,6 +326,8 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 💼 [Autodesk Platform Services](https://aps.autodesk.com) - Cloud APIs for Autodesk data, including the AEC Data Model, Model Derivative and Automation APIs.
 - 🟢 [Rhino.Compute](https://github.com/mcneel/compute.rhino3d) - Runs Rhino and Grasshopper geometry headlessly as a service. Useful for AI pipelines that need real geometry kernels.
 - 🟢 [Hypar Elements](https://github.com/hypar-io/Elements) - Code-first building element library behind the [Hypar](https://hypar.io) platform.
+- 💼 [BIMobject](https://www.bimobject.com/en) - Marketplace of manufacturer BIM objects for Revit, Archicad, SketchUp and other tools, with product data attached.
+- 💼 [3D Warehouse](https://3dwarehouse.sketchup.com/) - Trimble's free online library of SketchUp models, including manufacturer products, with uploads converted to USD and GLB.
 - [Open Source Construction](https://opensource.construction) - Directory and community for open-source projects in construction.
 
 ### Semantic & Building Ontologies
@@ -346,8 +348,10 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 ### Rhino & Grasshopper Plugins and Workflows
 
 - 💼 [ArchiHacks](https://plugin.archihacks.com/) - Rhino and Revit plug-in that generates AI visualisations from the Rhino viewport.
+- 💼 [BEAM (MKS DTECH)](https://www.mksdtech.com/products/beam) - Rhino-to-Revit bridge that adds BIM data to Rhino geometry and exports it to Revit or IFC, with a free LITE tier.
 - 💼 [Cityweft](https://www.cityweft.com/) - 3D site context platform with a Rhino and Grasshopper plug-in that imports buildings and terrain for a chosen location.
 - 💼 [Raven](https://www.raven.build/en) - AI assistant inside Rhino that builds and edits live Grasshopper definitions, showing each change for review before it is kept.
+- 💼 [Rhino Nature](https://rhinonature.com/) - Non-destructive scattering plug-in for Rhino that places large numbers of plants, rocks and other objects in a scene.
 - 💼 [Treform](https://treform.ai/) - AI modelling agent that runs beside Rhino and generates editable massing, plans and sections from text or reference images.
 
 ---
@@ -541,6 +545,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 💼 [Veras (EvolveLAB)](https://www.evolvelab.io/veras) - AI rendering plug-in for Revit, Rhino, SketchUp and Forma.
 - 💼 [LookX](https://www.lookx.ai) - Generative AI rendering trained for architecture.
 - 💼 [ArchitecturesAI](https://architecturesai.com/) - Browser tool that turns prompts, sketches, floor plans or photos into architectural renders, with a free tier.
+- 💼 [ArchMaster AI](https://archmasterai.com/) - AI visualisation tool that turns sketches, CAD drawings and concepts into photorealistic architectural and interior renders.
 - 🟢 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Node-based diffusion workflow engine popular for controlled architectural visualisation.
 - 🟢 [ControlNet](https://github.com/lllyasviel/ControlNet) - Conditions diffusion models on edges, depth or line drawings to keep design intent intact.
 
