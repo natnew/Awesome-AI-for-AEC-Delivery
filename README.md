@@ -354,6 +354,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 💼 [BEAM (MKS DTECH)](https://www.mksdtech.com/products/beam) - Rhino-to-Revit bridge that adds BIM data to Rhino geometry and exports it to Revit or IFC, with a free LITE tier.
 - 🟢 [Bowerbird](https://github.com/oberbichler/Bowerbird) - Open-source digital fabrication and computational geometry plug-in for Rhino and Grasshopper.
 - 💼 [Cityweft](https://www.cityweft.com/) - 3D site context platform with a Rhino and Grasshopper plug-in that imports buildings and terrain for a chosen location.
+- 🟢 [LoopFlow](https://github.com/ChihyuTsai-Oli/LoopFlow) - Open-source Rhino plug-in that semi-automatically keeps 2D drawings and the 3D model in sync, from schematic design to construction documents.
 - 💼 [Raven](https://www.raven.build/en) - AI assistant inside Rhino that builds and edits live Grasshopper definitions, showing each change for review before it is kept.
 - 💼 [Rhino Nature](https://rhinonature.com/) - Non-destructive scattering plug-in for Rhino that places large numbers of plants, rocks and other objects in a scene.
 - 💼 [Treform](https://treform.ai/) - AI modelling agent that runs beside Rhino and generates editable massing, plans and sections from text or reference images.
