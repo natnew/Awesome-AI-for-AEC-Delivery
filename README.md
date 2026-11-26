@@ -15,7 +15,7 @@ AEC is a physical, regulated, safety-critical industry. This list treats **trust
 ## How This List Is Organised
 
 <details>
-<summary>Click to expand</summary>
+<summary>How This List Is Organised: Click to expand</summary>
 
 The taxonomy has **five layers**. Each layer builds on the one below it:
 
@@ -63,7 +63,7 @@ Use this table to jump to the right section for your stage of delivery.
 ## BIM Primer: From Client Brief to Building Operations & Asset Intelligence
 
 <details>
-<summary>Click to expand</summary>
+<summary>BIM Primer: Click to expand</summary>
 
 > New to AEC, or coming from AI or software? This one-page primer explains what BIM is, how a building moves from an idea to an operating asset, who is involved at each stage, and why complexity peaks where it does. It is the context you need before applying AI anywhere in this list.
 
@@ -130,7 +130,7 @@ The design and construction stages usually take **2–5 years**. The **Use** sta
 ### How Information Flows (ISO 19650)
 
 <details>
-<summary>Click to expand</summary>
+<summary>How Information Flows (ISO 19650): Click to expand</summary>
 
 [ISO 19650](https://www.iso.org/standard/68078.html) defines information as a chain. The client's requirements flow down to the delivery team. A **Project Information Model (PIM)** grows during design and construction. At handover it becomes the **Asset Information Model (AIM)** that operations teams rely on.
 
@@ -154,7 +154,7 @@ flowchart LR
 ### Who Does What
 
 <details>
-<summary>Click to expand</summary>
+<summary>Who Does What: Click to expand</summary>
 
 Delivering a building takes dozens of professions and often hundreds of companies. The matrix below is **indicative**: roles shift with the procurement route (traditional, design & build, integrated project delivery) and the country.
 
@@ -182,7 +182,7 @@ Delivering a building takes dozens of professions and often hundreds of companie
 ### Where Architects Come In
 
 <details>
-<summary>Click to expand</summary>
+<summary>Where Architects Come In: Click to expand</summary>
 
 - **Stage 0–1, often earlier than people expect.** Architects run feasibility studies and help the client turn a *need* into a *brief*. Sometimes the answer is "don't build; refurbish".
 - **Stages 2–4, the lead designer.** Architects turn the brief into spatial form. They coordinate the wider design team (engineers and specialists) and usually prepare the planning application. Most authored BIM content in these stages is architectural, structural and MEP.
