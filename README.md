@@ -14,6 +14,9 @@ AEC is a physical, regulated, safety-critical industry. This list treats **trust
 
 ## How This List Is Organised
 
+<details>
+<summary>How This List Is Organised: Click to expand</summary>
+
 The taxonomy has **five layers**. Each layer builds on the one below it:
 
 ```mermaid
@@ -53,9 +56,14 @@ Use this table to jump to the right section for your stage of delivery.
 
 **Legend:** 🟢 open source · 💼 commercial · 📄 paper · 📊 dataset · 🎓 learning resource
 
+</details>
+
 ---
 
 ## BIM Primer: From Client Brief to Building Operations & Asset Intelligence
+
+<details>
+<summary>BIM Primer: Click to expand</summary>
 
 > New to AEC, or coming from AI or software? This one-page primer explains what BIM is, how a building moves from an idea to an operating asset, who is involved at each stage, and why complexity peaks where it does. It is the context you need before applying AI anywhere in this list.
 
@@ -121,6 +129,9 @@ The design and construction stages usually take **2–5 years**. The **Use** sta
 
 ### How Information Flows (ISO 19650)
 
+<details>
+<summary>How Information Flows (ISO 19650): Click to expand</summary>
+
 [ISO 19650](https://www.iso.org/standard/68078.html) defines information as a chain. The client's requirements flow down to the delivery team. A **Project Information Model (PIM)** grows during design and construction. At handover it becomes the **Asset Information Model (AIM)** that operations teams rely on.
 
 ```mermaid
@@ -138,7 +149,12 @@ flowchart LR
     AIM -. "lessons & data inform the next project" .-> OIR
 ```
 
+</details>
+
 ### Who Does What
+
+<details>
+<summary>Who Does What: Click to expand</summary>
 
 Delivering a building takes dozens of professions and often hundreds of companies. The matrix below is **indicative**: roles shift with the procurement route (traditional, design & build, integrated project delivery) and the country.
 
@@ -161,12 +177,19 @@ Delivering a building takes dozens of professions and often hundreds of companie
 | Building operations & asset intelligence team | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | 🟩 | 🟩 |
 | Occupants / end users | ⬜ | ⬜ | ⬜ | | | | ⬜ | 🟩 |
 
+</details>
+
 ### Where Architects Come In
+
+<details>
+<summary>Where Architects Come In: Click to expand</summary>
 
 - **Stage 0–1, often earlier than people expect.** Architects run feasibility studies and help the client turn a *need* into a *brief*. Sometimes the answer is "don't build; refurbish".
 - **Stages 2–4, the lead designer.** Architects turn the brief into spatial form. They coordinate the wider design team (engineers and specialists) and usually prepare the planning application. Most authored BIM content in these stages is architectural, structural and MEP.
 - **Stage 5, role depends on procurement.** In traditional contracts the architect often acts as *contract administrator*, inspecting work and certifying payments. In design & build, the architect may be *novated* to work for the contractor.
 - **Stages 6–7, typically light involvement.** This is a known weakness. Design intent and rationale often do not reach the people who run the building.
+
+</details>
 
 ### Technical Complexity Across the Lifecycle
 
@@ -190,6 +213,8 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 2. **The handover cliff.** Rich design and construction data is often lost when the asset passes to operations. Spatial AI (scan-to-BIM) and agents that read O&M documents can rebuild what was lost. Openly structured data (IFC, COBie, Brick) stops it being lost in the first place.
 
 **Further reading:** [What is BIM? (NBS)](https://www.thenbs.com/knowledge/what-is-building-information-modelling-bim) · [UK BIM Framework](https://www.ukbimframework.org) · [buildingSMART openBIM](https://www.buildingsmart.org)
+
+</details>
 
 ---
 
