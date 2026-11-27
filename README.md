@@ -620,6 +620,7 @@ Model detail and the number of people involved both grow quickly. Complexity pea
 - 🟢 [CityLearn](https://github.com/intelligent-environments-lab/CityLearn) - Reinforcement-learning environment for grid-interactive building energy management.
 - 🟢 [Sinergym](https://github.com/ugr-sail/sinergym) - Gymnasium environments wrapping EnergyPlus for building control.
 - 🟢📊 [BuildingsBench](https://github.com/NREL/BuildingsBench) - NREL benchmark and models for building energy load forecasting.
+- 🎓 [AI tenant service desk pilot checklist for facilities teams](https://bigplanner.co.kr/fire-safety-ai/en/adoption-guide/) - Checklist for piloting AI-assisted handling of tenant requests in one commercial building, with staff review, shift handover and two measures for comparing baseline and pilot results.
 
 ---
 
